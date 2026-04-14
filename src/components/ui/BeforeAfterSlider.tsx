@@ -37,10 +37,11 @@ export default function BeforeAfterSlider() {
     <div
       ref={containerRef}
       className="relative w-full h-full select-none overflow-hidden rounded-2xl cursor-ew-resize touch-none"
+      style={{ touchAction: "none" }}
       onPointerDown={onPointerDown}
       onPointerMove={onPointerMove}
       onPointerUp={onPointerUp}
-      onPointerLeave={onPointerUp}
+      onPointerCancel={onPointerUp}
     >
       {/* ── AFTER (base layer, img5) — always visible on the right ── */}
       <div className="absolute inset-0">
