@@ -5,18 +5,20 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Phone } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 const navLinks = [
-  { href: "#services", label: "Services" },
-  { href: "#why-us", label: "Why Us" },
-  { href: "#gallery", label: "Gallery" },
-  { href: "#testimonials", label: "Reviews" },
-  { href: "#contact", label: "Contact" },
+  { href: "#services",     label: "Services",  isRoute: false },
+  { href: "#why-us",       label: "Why Us",    isRoute: false },
+  { href: "/gallery",      label: "Gallery",   isRoute: true  },
+  { href: "#testimonials", label: "Reviews",   isRoute: false },
+  { href: "#contact",      label: "Contact",   isRoute: false },
 ];
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const pathname = usePathname();
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 20);
@@ -55,15 +57,27 @@ export default function Navbar() {
 
           {/* Desktop nav */}
           <nav className="hidden md:flex items-center gap-7">
-            {navLinks.map((link) => (
-              <a
-                key={link.href}
-                href={link.href}
-                className="text-stone/80 hover:text-cream text-sm font-medium transition-colors duration-200"
-              >
-                {link.label}
-              </a>
-            ))}
+            {navLinks.map((link) =>
+              link.isRoute ? (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className={`text-sm font-medium transition-colors duration-200 ${
+                    pathname === link.href ? "text-cream" : "text-stone/80 hover:text-cream"
+                  }`}
+                >
+                  {link.label}
+                </Link>
+              ) : (
+                <a
+                  key={link.href}
+                  href={link.href}
+                  className="text-stone/80 hover:text-cream text-sm font-medium transition-colors duration-200"
+                >
+                  {link.label}
+                </a>
+              )
+            )}
           </nav>
 
           {/* Desktop CTA */}
@@ -102,16 +116,29 @@ export default function Navbar() {
             className="md:hidden overflow-hidden bg-charcoal border-t border-white/10"
           >
             <nav className="flex flex-col px-4 py-4 gap-1">
-              {navLinks.map((link) => (
-                <a
-                  key={link.href}
-                  href={link.href}
-                  onClick={closeMobile}
-                  className="text-stone/80 hover:text-cream py-3 text-base font-medium border-b border-white/5 transition-colors"
-                >
-                  {link.label}
-                </a>
-              ))}
+              {navLinks.map((link) =>
+                link.isRoute ? (
+                  <Link
+                    key={link.href}
+                    href={link.href}
+                    onClick={closeMobile}
+                    className={`py-3 text-base font-medium border-b border-white/5 transition-colors ${
+                      pathname === link.href ? "text-cream" : "text-stone/80 hover:text-cream"
+                    }`}
+                  >
+                    {link.label}
+                  </Link>
+                ) : (
+                  <a
+                    key={link.href}
+                    href={link.href}
+                    onClick={closeMobile}
+                    className="text-stone/80 hover:text-cream py-3 text-base font-medium border-b border-white/5 transition-colors"
+                  >
+                    {link.label}
+                  </a>
+                )
+              )}
               <a
                 href="tel:07703357185"
                 onClick={closeMobile}

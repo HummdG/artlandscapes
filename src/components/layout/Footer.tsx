@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Phone, Mail, MapPin } from "lucide-react";
 import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
@@ -17,7 +18,7 @@ const services = [
 const quickLinks = [
   { href: "#services", label: "Services" },
   { href: "#why-us", label: "Why Choose Us" },
-  { href: "#gallery", label: "Gallery" },
+  { href: "/gallery", label: "Gallery", isRoute: true as const },
   { href: "#testimonials", label: "Reviews" },
   { href: "#contact", label: "Contact" },
 ];
@@ -88,12 +89,21 @@ export default function Footer() {
             <ul className="space-y-3">
               {quickLinks.map((link) => (
                 <li key={link.href}>
-                  <a
-                    href={link.href}
-                    className="text-sm hover:text-cream transition-colors duration-200"
-                  >
-                    {link.label}
-                  </a>
+                  {"isRoute" in link ? (
+                    <Link
+                      href={link.href}
+                      className="text-sm hover:text-cream transition-colors duration-200"
+                    >
+                      {link.label}
+                    </Link>
+                  ) : (
+                    <a
+                      href={link.href}
+                      className="text-sm hover:text-cream transition-colors duration-200"
+                    >
+                      {link.label}
+                    </a>
+                  )}
                 </li>
               ))}
             </ul>
