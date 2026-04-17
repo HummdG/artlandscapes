@@ -46,7 +46,7 @@ export default function BeforeAfterSlider() {
       {/* ── AFTER (base layer, img5) — always visible on the right ── */}
       <div className="absolute inset-0">
         <Image
-          src="/assets/artlandscapes/carousel/img5.png"
+          src="/assets/artlandscapes/gallery/carousel/img5.png"
           alt="After transformation — ARTLandscapes"
           fill
           className="object-cover"
@@ -68,7 +68,7 @@ export default function BeforeAfterSlider() {
         style={{ clipPath: `inset(0 ${100 - position}% 0 0)` }}
       >
         <Image
-          src="/assets/artlandscapes/carousel/img6.png"
+          src="/assets/artlandscapes/gallery/carousel/img6.png"
           alt="Before transformation — ARTLandscapes"
           fill
           className="object-cover"

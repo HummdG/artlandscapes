@@ -11,7 +11,7 @@ import BeforeAfterSlider from "@/components/ui/BeforeAfterSlider";
 ───────────────────────────────────────── */
 const projects = [
   {
-    src: "/assets/artlandscapes/carousel/img1.png",
+    src: "/assets/artlandscapes/gallery/carousel/img1.png",
     num: "01",
     caption: "Resin Driveway",
     location: "Kent",
@@ -19,42 +19,42 @@ const projects = [
     cls: "lg:col-span-2 lg:row-span-2",
   },
   {
-    src: "/assets/artlandscapes/carousel/img2.png",
+    src: "/assets/artlandscapes/gallery/carousel/img2.png",
     num: "02",
     caption: "Natural Stone Patio",
     location: "Surrey",
     cls: "",
   },
   {
-    src: "/assets/artlandscapes/carousel/img3.png",
+    src: "/assets/artlandscapes/gallery/carousel/img3.png",
     num: "03",
     caption: "Block Paving",
     location: "Essex",
     cls: "",
   },
   {
-    src: "/assets/artlandscapes/carousel/img4.png",
+    src: "/assets/artlandscapes/gallery/carousel/img4.png",
     num: "04",
     caption: "Garden Landscaping",
     location: "Sussex",
     cls: "",
   },
   {
-    src: "/assets/artlandscapes/carousel/img7.png",
+    src: "/assets/artlandscapes/gallery/carousel/img7.png",
     num: "05",
     caption: "Artificial Lawn",
     location: "Hampshire",
     cls: "",
   },
   {
-    src: "/assets/artlandscapes/carousel/img8.png",
+    src: "/assets/artlandscapes/gallery/carousel/img8.png",
     num: "06",
     caption: "Concreting & Groundwork",
     location: "London",
     cls: "",
   },
   {
-    src: "/assets/artlandscapes/carousel/img9.png",
+    src: "/assets/artlandscapes/gallery/carousel/img9.png",
     num: "07",
     caption: "Premium Driveway",
     location: "Berkshire",
@@ -62,7 +62,7 @@ const projects = [
     cls: "lg:col-span-2",
   },
   {
-    src: "/assets/artlandscapes/carousel/img10.png",
+    src: "/assets/artlandscapes/gallery/carousel/img10.png",
     num: "08",
     caption: "Outdoor Transformation",
     location: "Kent",
