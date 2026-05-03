@@ -41,11 +41,28 @@ export const FEATURED_IMAGES: GalleryImage[] = Array.from({ length: 10 }, (_, i)
   alt: `ARTLandscapes featured project ${i + 1}`,
 }));
 
-const GARDEN_BASE  = `${BASE}/garden dig and artificial lawn`;
-const DIG_BASE     = `${BASE}/dig out turf and landscaping`;
-const PATIO_BASE   = `${BASE}/indian sanstone patio`;
-const RESIN_BASE   = `${BASE}/resin front porch area and balcony`;
-const TURF_BASE    = `${BASE}/turfing job`;
+const GARDEN_BASE        = `${BASE}/garden dig and artificial lawn`;
+const DIG_BASE           = `${BASE}/dig out turf and landscaping`;
+const PATIO_BASE         = `${BASE}/indian sanstone patio`;
+const RESIN_BASE         = `${BASE}/resin front porch area and balcony`;
+const TURF_BASE          = `${BASE}/turfing job`;
+
+const CRAZY_GARDEN_BASE  = `${BASE}/crazy garden renovation with curved path and curved kerb`;
+const ITALIAN_BASE       = `${BASE}/entrance to an italian resturaunt`;
+const GARDEN_SS_BASE     = `${BASE}/garden transform with sandstone patio`;
+const TRANSFORM_BASE     = `${BASE}/garden transform`;
+const HOUSE_EXT_BASE     = `${BASE}/house extensions`;
+const PORC_LIGHT_BASE    = `${BASE}/porcelain patio with lighting`;
+const PORC_TILE_BASE     = `${BASE}/porcelain tile garen transform`;
+const RESIN_CY_BASE      = `${BASE}/resin driveway cyprus`;
+const RESIN_KERB_BASE    = `${BASE}/resin driveway with k kerb planter`;
+const RESIN_DW_BASE      = `${BASE}/resin driveway`;
+const RESIN_DW2_BASE     = `${BASE}/resin driveyway 2`;
+const RESIN_THAI_BASE    = `${BASE}/resin entrance thai restaurant in cyprus`;
+const RESIN_PATIO_BASE   = `${BASE}/resin front patio and planters`;
+const RESIN_POOL_BASE    = `${BASE}/resin pool cyprus`;
+const SS_GRASS_BASE      = `${BASE}/sandstone patio with artificial grass`;
+const SS_PATIO_BASE      = `${BASE}/sandstone patio`;
 
 export const GALLERY_PROJECTS: GalleryProject[] = [
   {
@@ -129,6 +146,362 @@ export const GALLERY_PROJECTS: GalleryProject[] = [
       { src: `${TURF_BASE}/PHOTO-2026-04-17-14-56-18_2.jpg`, alt: "Turfing job — stage 2"   },
       { src: `${TURF_BASE}/PHOTO-2026-04-17-14-56-18_3.jpg`, alt: "Turfing job — stage 3"   },
       { src: `${TURF_BASE}/PHOTO-2026-04-17-14-56-18_4.jpg`, alt: "Turfing job — finished"  },
+    ],
+  },
+  {
+    id: "crazy-garden-renovation",
+    title: "Garden Renovation with Curved Path & Kerb",
+    description:
+      "Striking garden transformation featuring a sweeping curved pathway and matching curved kerbing. Designed to maximise space and create a flowing, contemporary outdoor aesthetic.",
+    category: "landscaping",
+    coverIndex: 0,
+    images: [
+      { src: `${CRAZY_GARDEN_BASE}/WhatsApp Image 2026-04-28 at 10.28.33.jpeg`,      alt: "Garden renovation with curved path — overview"   },
+      { src: `${CRAZY_GARDEN_BASE}/WhatsApp Image 2026-04-28 at 10.28.33 (1).jpeg`,  alt: "Garden renovation with curved path — detail 1"   },
+      { src: `${CRAZY_GARDEN_BASE}/WhatsApp Image 2026-04-28 at 10.28.34.jpeg`,      alt: "Garden renovation with curved path — stage 1"    },
+      { src: `${CRAZY_GARDEN_BASE}/WhatsApp Image 2026-04-28 at 10.28.34 (1).jpeg`,  alt: "Garden renovation with curved path — stage 2"    },
+      { src: `${CRAZY_GARDEN_BASE}/WhatsApp Image 2026-04-28 at 10.28.34 (2).jpeg`,  alt: "Garden renovation with curved path — stage 3"    },
+      { src: `${CRAZY_GARDEN_BASE}/WhatsApp Image 2026-04-28 at 10.28.34 (3).jpeg`,  alt: "Garden renovation with curved path — stage 4"    },
+      { src: `${CRAZY_GARDEN_BASE}/WhatsApp Image 2026-04-28 at 10.28.34 (4).jpeg`,  alt: "Garden renovation with curved path — stage 5"    },
+      { src: `${CRAZY_GARDEN_BASE}/WhatsApp Image 2026-04-28 at 10.28.34 (5).jpeg`,  alt: "Garden renovation with curved path — stage 6"    },
+      { src: `${CRAZY_GARDEN_BASE}/WhatsApp Image 2026-04-28 at 10.28.34 (6).jpeg`,  alt: "Garden renovation with curved path — stage 7"    },
+      { src: `${CRAZY_GARDEN_BASE}/WhatsApp Image 2026-04-28 at 10.28.34 (7).jpeg`,  alt: "Garden renovation with curved path — stage 8"    },
+      { src: `${CRAZY_GARDEN_BASE}/WhatsApp Image 2026-04-28 at 10.28.34 (8).jpeg`,  alt: "Garden renovation with curved path — stage 9"    },
+      { src: `${CRAZY_GARDEN_BASE}/WhatsApp Image 2026-04-28 at 10.28.34 (9).jpeg`,  alt: "Garden renovation with curved path — stage 10"   },
+      { src: `${CRAZY_GARDEN_BASE}/WhatsApp Image 2026-04-28 at 10.28.34 (10).jpeg`, alt: "Garden renovation with curved path — stage 11"   },
+      { src: `${CRAZY_GARDEN_BASE}/WhatsApp Image 2026-04-28 at 10.28.34 (11).jpeg`, alt: "Garden renovation with curved path — finished"   },
+    ],
+  },
+  {
+    id: "italian-restaurant-entrance",
+    title: "Italian Restaurant Entrance",
+    description:
+      "Commercial resin-bound entrance installation for an Italian restaurant. Durable, slip-resistant surface finished to a high standard, welcoming guests in style.",
+    category: "resin",
+    coverIndex: 0,
+    images: [
+      { src: `${ITALIAN_BASE}/WhatsApp Image 2026-04-28 at 10.01.41.jpeg`,      alt: "Italian restaurant entrance — overview" },
+      { src: `${ITALIAN_BASE}/WhatsApp Image 2026-04-28 at 10.01.41 (1).jpeg`,  alt: "Italian restaurant entrance — detail 1" },
+      { src: `${ITALIAN_BASE}/WhatsApp Image 2026-04-28 at 10.01.41 (2).jpeg`,  alt: "Italian restaurant entrance — finished" },
+    ],
+  },
+  {
+    id: "garden-transform-sandstone-patio",
+    title: "Garden Transform with Sandstone Patio",
+    description:
+      "Full garden transformation centred around a beautifully laid sandstone patio. Existing garden cleared and redesigned to create a cohesive, low-maintenance outdoor living space.",
+    category: "patios",
+    coverIndex: 0,
+    images: [
+      { src: `${GARDEN_SS_BASE}/WhatsApp Image 2026-04-28 at 09.58.52.jpeg`,      alt: "Garden transform with sandstone patio — overview"    },
+      { src: `${GARDEN_SS_BASE}/WhatsApp Image 2026-04-28 at 09.58.52 (1).jpeg`,  alt: "Garden transform with sandstone patio — stage 1"     },
+      { src: `${GARDEN_SS_BASE}/WhatsApp Image 2026-04-28 at 09.58.52 (2).jpeg`,  alt: "Garden transform with sandstone patio — stage 2"     },
+      { src: `${GARDEN_SS_BASE}/WhatsApp Image 2026-04-28 at 09.58.52 (3).jpeg`,  alt: "Garden transform with sandstone patio — stage 3"     },
+      { src: `${GARDEN_SS_BASE}/WhatsApp Image 2026-04-28 at 09.58.53.jpeg`,      alt: "Garden transform with sandstone patio — stage 4"     },
+      { src: `${GARDEN_SS_BASE}/WhatsApp Image 2026-04-28 at 09.58.53 (1).jpeg`,  alt: "Garden transform with sandstone patio — stage 5"     },
+      { src: `${GARDEN_SS_BASE}/WhatsApp Image 2026-04-28 at 09.58.53 (2).jpeg`,  alt: "Garden transform with sandstone patio — stage 6"     },
+      { src: `${GARDEN_SS_BASE}/WhatsApp Image 2026-04-28 at 09.58.53 (3).jpeg`,  alt: "Garden transform with sandstone patio — stage 7"     },
+      { src: `${GARDEN_SS_BASE}/WhatsApp Image 2026-04-28 at 09.58.53 (4).jpeg`,  alt: "Garden transform with sandstone patio — stage 8"     },
+      { src: `${GARDEN_SS_BASE}/WhatsApp Image 2026-04-28 at 09.58.53 (5).jpeg`,  alt: "Garden transform with sandstone patio — stage 9"     },
+      { src: `${GARDEN_SS_BASE}/WhatsApp Image 2026-04-28 at 09.58.53 (6).jpeg`,  alt: "Garden transform with sandstone patio — stage 10"    },
+      { src: `${GARDEN_SS_BASE}/WhatsApp Image 2026-04-28 at 09.58.53 (7).jpeg`,  alt: "Garden transform with sandstone patio — finished"    },
+    ],
+  },
+  {
+    id: "garden-transform",
+    title: "Garden Transform",
+    description:
+      "Complete garden transformation from overgrown space to a stunning outdoor retreat. Groundworks, planting borders, and finishing touches all handled in-house.",
+    category: "landscaping",
+    coverIndex: 0,
+    images: [
+      { src: `${TRANSFORM_BASE}/WhatsApp Image 2026-04-28 at 09.44.27.jpeg`,      alt: "Garden transform — overview"   },
+      { src: `${TRANSFORM_BASE}/WhatsApp Image 2026-04-28 at 09.44.27 (1).jpeg`,  alt: "Garden transform — stage 1"    },
+      { src: `${TRANSFORM_BASE}/WhatsApp Image 2026-04-28 at 09.44.28.jpeg`,      alt: "Garden transform — stage 2"    },
+      { src: `${TRANSFORM_BASE}/WhatsApp Image 2026-04-28 at 09.44.28 (1).jpeg`,  alt: "Garden transform — stage 3"    },
+      { src: `${TRANSFORM_BASE}/WhatsApp Image 2026-04-28 at 09.44.28 (2).jpeg`,  alt: "Garden transform — stage 4"    },
+      { src: `${TRANSFORM_BASE}/WhatsApp Image 2026-04-28 at 09.44.28 (3).jpeg`,  alt: "Garden transform — stage 5"    },
+      { src: `${TRANSFORM_BASE}/WhatsApp Image 2026-04-28 at 09.44.28 (4).jpeg`,  alt: "Garden transform — stage 6"    },
+      { src: `${TRANSFORM_BASE}/WhatsApp Image 2026-04-28 at 09.44.28 (5).jpeg`,  alt: "Garden transform — stage 7"    },
+      { src: `${TRANSFORM_BASE}/WhatsApp Image 2026-04-28 at 09.44.28 (6).jpeg`,  alt: "Garden transform — stage 8"    },
+      { src: `${TRANSFORM_BASE}/WhatsApp Image 2026-04-28 at 09.44.28 (7).jpeg`,  alt: "Garden transform — stage 9"    },
+      { src: `${TRANSFORM_BASE}/WhatsApp Image 2026-04-28 at 09.44.28 (8).jpeg`,  alt: "Garden transform — stage 10"   },
+      { src: `${TRANSFORM_BASE}/WhatsApp Image 2026-04-28 at 09.44.28 (9).jpeg`,  alt: "Garden transform — stage 11"   },
+      { src: `${TRANSFORM_BASE}/WhatsApp Image 2026-04-28 at 09.44.28 (10).jpeg`, alt: "Garden transform — stage 12"   },
+      { src: `${TRANSFORM_BASE}/WhatsApp Image 2026-04-28 at 09.44.28 (11).jpeg`, alt: "Garden transform — stage 13"   },
+      { src: `${TRANSFORM_BASE}/WhatsApp Image 2026-04-28 at 09.44.28 (12).jpeg`, alt: "Garden transform — stage 14"   },
+      { src: `${TRANSFORM_BASE}/WhatsApp Image 2026-04-28 at 09.44.28 (13).jpeg`, alt: "Garden transform — stage 15"   },
+      { src: `${TRANSFORM_BASE}/WhatsApp Image 2026-04-28 at 09.44.28 (14).jpeg`, alt: "Garden transform — stage 16"   },
+      { src: `${TRANSFORM_BASE}/WhatsApp Image 2026-04-28 at 09.44.28 (15).jpeg`, alt: "Garden transform — stage 17"   },
+      { src: `${TRANSFORM_BASE}/WhatsApp Image 2026-04-28 at 09.44.28 (16).jpeg`, alt: "Garden transform — finished"   },
+    ],
+  },
+  {
+    id: "house-extensions",
+    title: "House Extensions",
+    description:
+      "Groundworks and hard landscaping to complement a house extension project. External areas levelled, paved, and finished to match the new build and enhance the overall property.",
+    category: "landscaping",
+    coverIndex: 0,
+    images: [
+      { src: `${HOUSE_EXT_BASE}/WhatsApp Image 2026-04-28 at 09.45.37.jpeg`,      alt: "House extensions landscaping — overview"   },
+      { src: `${HOUSE_EXT_BASE}/WhatsApp Image 2026-04-28 at 09.45.37 (1).jpeg`,  alt: "House extensions landscaping — stage 1"    },
+      { src: `${HOUSE_EXT_BASE}/WhatsApp Image 2026-04-28 at 09.45.37 (2).jpeg`,  alt: "House extensions landscaping — stage 2"    },
+      { src: `${HOUSE_EXT_BASE}/WhatsApp Image 2026-04-28 at 09.45.37 (3).jpeg`,  alt: "House extensions landscaping — stage 3"    },
+      { src: `${HOUSE_EXT_BASE}/WhatsApp Image 2026-04-28 at 09.45.37 (4).jpeg`,  alt: "House extensions landscaping — stage 4"    },
+      { src: `${HOUSE_EXT_BASE}/WhatsApp Image 2026-04-28 at 09.45.37 (5).jpeg`,  alt: "House extensions landscaping — stage 5"    },
+      { src: `${HOUSE_EXT_BASE}/WhatsApp Image 2026-04-28 at 09.45.37 (6).jpeg`,  alt: "House extensions landscaping — stage 6"    },
+      { src: `${HOUSE_EXT_BASE}/WhatsApp Image 2026-04-28 at 09.45.37 (7).jpeg`,  alt: "House extensions landscaping — stage 7"    },
+      { src: `${HOUSE_EXT_BASE}/WhatsApp Image 2026-04-28 at 09.45.37 (8).jpeg`,  alt: "House extensions landscaping — stage 8"    },
+      { src: `${HOUSE_EXT_BASE}/WhatsApp Image 2026-04-28 at 09.45.37 (9).jpeg`,  alt: "House extensions landscaping — stage 9"    },
+      { src: `${HOUSE_EXT_BASE}/WhatsApp Image 2026-04-28 at 09.45.37 (10).jpeg`, alt: "House extensions landscaping — stage 10"   },
+      { src: `${HOUSE_EXT_BASE}/WhatsApp Image 2026-04-28 at 09.45.37 (11).jpeg`, alt: "House extensions landscaping — stage 11"   },
+      { src: `${HOUSE_EXT_BASE}/WhatsApp Image 2026-04-28 at 09.45.37 (12).jpeg`, alt: "House extensions landscaping — stage 12"   },
+      { src: `${HOUSE_EXT_BASE}/WhatsApp Image 2026-04-28 at 09.45.37 (13).jpeg`, alt: "House extensions landscaping — finished"   },
+    ],
+  },
+  {
+    id: "porcelain-patio-lighting",
+    title: "Porcelain Patio with Lighting",
+    description:
+      "Contemporary porcelain patio with integrated outdoor lighting. Large-format tiles laid to a precision finish, with lighting recessed to extend the usable outdoor space into the evening.",
+    category: "patios",
+    coverIndex: 0,
+    images: [
+      { src: `${PORC_LIGHT_BASE}/WhatsApp Image 2026-04-28 at 09.56.13.jpeg`,      alt: "Porcelain patio with lighting — overview"  },
+      { src: `${PORC_LIGHT_BASE}/WhatsApp Image 2026-04-28 at 09.56.14.jpeg`,      alt: "Porcelain patio with lighting — detail 1"  },
+      { src: `${PORC_LIGHT_BASE}/WhatsApp Image 2026-04-28 at 09.56.14 (1).jpeg`,  alt: "Porcelain patio with lighting — detail 2"  },
+      { src: `${PORC_LIGHT_BASE}/WhatsApp Image 2026-04-28 at 09.56.14 (2).jpeg`,  alt: "Porcelain patio with lighting — detail 3"  },
+      { src: `${PORC_LIGHT_BASE}/WhatsApp Image 2026-04-28 at 09.56.14 (3).jpeg`,  alt: "Porcelain patio with lighting — finished"  },
+    ],
+  },
+  {
+    id: "porcelain-tile-garden-transform",
+    title: "Porcelain Tile Garden Transform",
+    description:
+      "Full garden transformation using premium porcelain tiles. The sleek, large-format surface creates a modern, seamless look that connects indoor and outdoor living effortlessly.",
+    category: "patios",
+    coverIndex: 0,
+    images: [
+      { src: `${PORC_TILE_BASE}/WhatsApp Image 2026-04-28 at 09.41.36.jpeg`,      alt: "Porcelain tile garden transform — overview"  },
+      { src: `${PORC_TILE_BASE}/WhatsApp Image 2026-04-28 at 09.41.36 (1).jpeg`,  alt: "Porcelain tile garden transform — stage 1"   },
+      { src: `${PORC_TILE_BASE}/WhatsApp Image 2026-04-28 at 09.41.36 (2).jpeg`,  alt: "Porcelain tile garden transform — stage 2"   },
+      { src: `${PORC_TILE_BASE}/WhatsApp Image 2026-04-28 at 09.41.36 (3).jpeg`,  alt: "Porcelain tile garden transform — stage 3"   },
+      { src: `${PORC_TILE_BASE}/WhatsApp Image 2026-04-28 at 09.41.36 (4).jpeg`,  alt: "Porcelain tile garden transform — stage 4"   },
+      { src: `${PORC_TILE_BASE}/WhatsApp Image 2026-04-28 at 09.41.36 (5).jpeg`,  alt: "Porcelain tile garden transform — stage 5"   },
+      { src: `${PORC_TILE_BASE}/WhatsApp Image 2026-04-28 at 09.41.36 (6).jpeg`,  alt: "Porcelain tile garden transform — stage 6"   },
+      { src: `${PORC_TILE_BASE}/WhatsApp Image 2026-04-28 at 09.41.36 (7).jpeg`,  alt: "Porcelain tile garden transform — finished"  },
+    ],
+  },
+  {
+    id: "resin-driveway-cyprus",
+    title: "Resin Driveway — Cyprus",
+    description:
+      "Resin-bound driveway installation completed in Cyprus. Heat-resistant resin blend applied over a prepared base, delivering a smart, long-lasting finish suited to the Mediterranean climate.",
+    category: "resin",
+    coverIndex: 0,
+    images: [
+      { src: `${RESIN_CY_BASE}/WhatsApp Image 2026-04-28 at 09.57.22.jpeg`,      alt: "Resin driveway Cyprus — overview"  },
+      { src: `${RESIN_CY_BASE}/WhatsApp Image 2026-04-28 at 09.57.23.jpeg`,      alt: "Resin driveway Cyprus — detail 1"  },
+      { src: `${RESIN_CY_BASE}/WhatsApp Image 2026-04-28 at 09.57.23 (1).jpeg`,  alt: "Resin driveway Cyprus — detail 2"  },
+      { src: `${RESIN_CY_BASE}/WhatsApp Image 2026-04-28 at 09.57.23 (2).jpeg`,  alt: "Resin driveway Cyprus — detail 3"  },
+      { src: `${RESIN_CY_BASE}/WhatsApp Image 2026-04-28 at 09.57.24.jpeg`,      alt: "Resin driveway Cyprus — finished"  },
+    ],
+  },
+  {
+    id: "resin-driveway-k-kerb-planter",
+    title: "Resin Driveway with K-Kerb & Planter",
+    description:
+      "Resin driveway installation finished with crisp K-kerb edging and an integrated planter feature. Clean lines and complementary stone tones elevate the front-of-house appearance.",
+    category: "resin",
+    coverIndex: 0,
+    images: [
+      { src: `${RESIN_KERB_BASE}/WhatsApp Image 2026-04-28 at 09.54.51.jpeg`,      alt: "Resin driveway with K-kerb and planter — overview"  },
+      { src: `${RESIN_KERB_BASE}/WhatsApp Image 2026-04-28 at 09.54.51 (1).jpeg`,  alt: "Resin driveway with K-kerb and planter — detail 1"  },
+      { src: `${RESIN_KERB_BASE}/WhatsApp Image 2026-04-28 at 09.54.51 (2).jpeg`,  alt: "Resin driveway with K-kerb and planter — detail 2"  },
+      { src: `${RESIN_KERB_BASE}/WhatsApp Image 2026-04-28 at 09.54.52.jpeg`,      alt: "Resin driveway with K-kerb and planter — detail 3"  },
+      { src: `${RESIN_KERB_BASE}/WhatsApp Image 2026-04-28 at 09.54.52 (1).jpeg`,  alt: "Resin driveway with K-kerb and planter — finished"  },
+    ],
+  },
+  {
+    id: "resin-driveway",
+    title: "Resin Driveway",
+    description:
+      "Large-scale resin-bound driveway installation. Full dig-out, MOT sub-base, and resin surface applied to create a seamless, permeable driveway with outstanding kerb appeal.",
+    category: "resin",
+    coverIndex: 0,
+    images: [
+      { src: `${RESIN_DW_BASE}/WhatsApp Image 2026-04-28 at 09.44.53.jpeg`,       alt: "Resin driveway — overview"    },
+      { src: `${RESIN_DW_BASE}/WhatsApp Image 2026-04-28 at 09.44.53 (1).jpeg`,   alt: "Resin driveway — stage 1"     },
+      { src: `${RESIN_DW_BASE}/WhatsApp Image 2026-04-28 at 09.44.53 (2).jpeg`,   alt: "Resin driveway — stage 2"     },
+      { src: `${RESIN_DW_BASE}/WhatsApp Image 2026-04-28 at 09.44.53 (3).jpeg`,   alt: "Resin driveway — stage 3"     },
+      { src: `${RESIN_DW_BASE}/WhatsApp Image 2026-04-28 at 09.44.53 (4).jpeg`,   alt: "Resin driveway — stage 4"     },
+      { src: `${RESIN_DW_BASE}/WhatsApp Image 2026-04-28 at 09.44.53 (5).jpeg`,   alt: "Resin driveway — stage 5"     },
+      { src: `${RESIN_DW_BASE}/WhatsApp Image 2026-04-28 at 09.44.53 (6).jpeg`,   alt: "Resin driveway — stage 6"     },
+      { src: `${RESIN_DW_BASE}/WhatsApp Image 2026-04-28 at 09.44.53 (7).jpeg`,   alt: "Resin driveway — stage 7"     },
+      { src: `${RESIN_DW_BASE}/WhatsApp Image 2026-04-28 at 09.44.53 (8).jpeg`,   alt: "Resin driveway — stage 8"     },
+      { src: `${RESIN_DW_BASE}/WhatsApp Image 2026-04-28 at 09.44.53 (9).jpeg`,   alt: "Resin driveway — stage 9"     },
+      { src: `${RESIN_DW_BASE}/WhatsApp Image 2026-04-28 at 09.44.54.jpeg`,       alt: "Resin driveway — stage 10"    },
+      { src: `${RESIN_DW_BASE}/WhatsApp Image 2026-04-28 at 09.44.54 (1).jpeg`,   alt: "Resin driveway — stage 11"    },
+      { src: `${RESIN_DW_BASE}/WhatsApp Image 2026-04-28 at 09.44.54 (2).jpeg`,   alt: "Resin driveway — stage 12"    },
+      { src: `${RESIN_DW_BASE}/WhatsApp Image 2026-04-28 at 09.44.54 (3).jpeg`,   alt: "Resin driveway — stage 13"    },
+      { src: `${RESIN_DW_BASE}/WhatsApp Image 2026-04-28 at 09.44.54 (4).jpeg`,   alt: "Resin driveway — stage 14"    },
+      { src: `${RESIN_DW_BASE}/WhatsApp Image 2026-04-28 at 09.44.54 (5).jpeg`,   alt: "Resin driveway — stage 15"    },
+      { src: `${RESIN_DW_BASE}/WhatsApp Image 2026-04-28 at 09.44.54 (6).jpeg`,   alt: "Resin driveway — stage 16"    },
+      { src: `${RESIN_DW_BASE}/WhatsApp Image 2026-04-28 at 09.44.54 (7).jpeg`,   alt: "Resin driveway — stage 17"    },
+      { src: `${RESIN_DW_BASE}/WhatsApp Image 2026-04-28 at 09.44.54 (8).jpeg`,   alt: "Resin driveway — stage 18"    },
+      { src: `${RESIN_DW_BASE}/WhatsApp Image 2026-04-28 at 09.44.54 (9).jpeg`,   alt: "Resin driveway — stage 19"    },
+      { src: `${RESIN_DW_BASE}/WhatsApp Image 2026-04-28 at 09.44.54 (10).jpeg`,  alt: "Resin driveway — stage 20"    },
+      { src: `${RESIN_DW_BASE}/WhatsApp Image 2026-04-28 at 09.44.54 (11).jpeg`,  alt: "Resin driveway — stage 21"    },
+      { src: `${RESIN_DW_BASE}/WhatsApp Image 2026-04-28 at 09.44.54 (12).jpeg`,  alt: "Resin driveway — stage 22"    },
+      { src: `${RESIN_DW_BASE}/WhatsApp Image 2026-04-28 at 09.44.54 (13).jpeg`,  alt: "Resin driveway — stage 23"    },
+      { src: `${RESIN_DW_BASE}/WhatsApp Image 2026-04-28 at 09.44.54 (14).jpeg`,  alt: "Resin driveway — stage 24"    },
+      { src: `${RESIN_DW_BASE}/WhatsApp Image 2026-04-28 at 09.44.54 (15).jpeg`,  alt: "Resin driveway — stage 25"    },
+      { src: `${RESIN_DW_BASE}/WhatsApp Image 2026-04-28 at 09.44.54 (16).jpeg`,  alt: "Resin driveway — stage 26"    },
+      { src: `${RESIN_DW_BASE}/WhatsApp Image 2026-04-28 at 09.44.54 (17).jpeg`,  alt: "Resin driveway — stage 27"    },
+      { src: `${RESIN_DW_BASE}/WhatsApp Image 2026-04-28 at 09.44.54 (18).jpeg`,  alt: "Resin driveway — stage 28"    },
+      { src: `${RESIN_DW_BASE}/WhatsApp Image 2026-04-28 at 09.44.54 (19).jpeg`,  alt: "Resin driveway — stage 29"    },
+      { src: `${RESIN_DW_BASE}/WhatsApp Image 2026-04-28 at 09.44.54 (20).jpeg`,  alt: "Resin driveway — stage 30"    },
+      { src: `${RESIN_DW_BASE}/WhatsApp Image 2026-04-28 at 09.44.54 (21).jpeg`,  alt: "Resin driveway — stage 31"    },
+      { src: `${RESIN_DW_BASE}/WhatsApp Image 2026-04-28 at 09.44.54 (22).jpeg`,  alt: "Resin driveway — stage 32"    },
+      { src: `${RESIN_DW_BASE}/WhatsApp Image 2026-04-28 at 09.44.54 (23).jpeg`,  alt: "Resin driveway — stage 33"    },
+      { src: `${RESIN_DW_BASE}/WhatsApp Image 2026-04-28 at 09.44.55.jpeg`,       alt: "Resin driveway — stage 34"    },
+      { src: `${RESIN_DW_BASE}/WhatsApp Image 2026-04-28 at 09.44.55 (1).jpeg`,   alt: "Resin driveway — stage 35"    },
+      { src: `${RESIN_DW_BASE}/WhatsApp Image 2026-04-28 at 09.44.55 (2).jpeg`,   alt: "Resin driveway — stage 36"    },
+      { src: `${RESIN_DW_BASE}/WhatsApp Image 2026-04-28 at 09.44.55 (3).jpeg`,   alt: "Resin driveway — finished"    },
+    ],
+  },
+  {
+    id: "resin-driveway-2",
+    title: "Resin Driveway 2",
+    description:
+      "Second resin driveway installation showcasing a different aggregate blend and layout. Permeable surface installed over a compacted sub-base for a premium, long-lasting result.",
+    category: "resin",
+    coverIndex: 0,
+    images: [
+      { src: `${RESIN_DW2_BASE}/WhatsApp Image 2026-04-28 at 09.53.30.jpeg`,      alt: "Resin driveway 2 — overview"  },
+      { src: `${RESIN_DW2_BASE}/WhatsApp Image 2026-04-28 at 09.53.30 (1).jpeg`,  alt: "Resin driveway 2 — stage 1"   },
+      { src: `${RESIN_DW2_BASE}/WhatsApp Image 2026-04-28 at 09.53.30 (2).jpeg`,  alt: "Resin driveway 2 — stage 2"   },
+      { src: `${RESIN_DW2_BASE}/WhatsApp Image 2026-04-28 at 09.53.30 (3).jpeg`,  alt: "Resin driveway 2 — stage 3"   },
+      { src: `${RESIN_DW2_BASE}/WhatsApp Image 2026-04-28 at 09.53.30 (4).jpeg`,  alt: "Resin driveway 2 — stage 4"   },
+      { src: `${RESIN_DW2_BASE}/WhatsApp Image 2026-04-28 at 09.53.31.jpeg`,      alt: "Resin driveway 2 — finished"  },
+    ],
+  },
+  {
+    id: "resin-entrance-thai-restaurant-cyprus",
+    title: "Thai Restaurant Entrance — Cyprus",
+    description:
+      "Resin-bound entrance installation for a Thai restaurant in Cyprus. Hard-wearing, UV-stable surface finished to an immaculate standard for high-footfall commercial use.",
+    category: "resin",
+    coverIndex: 0,
+    images: [
+      { src: `${RESIN_THAI_BASE}/WhatsApp Image 2026-04-28 at 10.23.15.jpeg`,      alt: "Thai restaurant entrance Cyprus — overview"  },
+      { src: `${RESIN_THAI_BASE}/WhatsApp Image 2026-04-28 at 10.23.15 (1).jpeg`,  alt: "Thai restaurant entrance Cyprus — detail 1"  },
+      { src: `${RESIN_THAI_BASE}/WhatsApp Image 2026-04-28 at 10.23.15 (2).jpeg`,  alt: "Thai restaurant entrance Cyprus — detail 2"  },
+      { src: `${RESIN_THAI_BASE}/WhatsApp Image 2026-04-28 at 10.23.15 (3).jpeg`,  alt: "Thai restaurant entrance Cyprus — detail 3"  },
+      { src: `${RESIN_THAI_BASE}/WhatsApp Image 2026-04-28 at 10.23.15 (4).jpeg`,  alt: "Thai restaurant entrance Cyprus — detail 4"  },
+      { src: `${RESIN_THAI_BASE}/WhatsApp Image 2026-04-28 at 10.23.15 (5).jpeg`,  alt: "Thai restaurant entrance Cyprus — detail 5"  },
+      { src: `${RESIN_THAI_BASE}/WhatsApp Image 2026-04-28 at 10.23.15 (6).jpeg`,  alt: "Thai restaurant entrance Cyprus — finished"  },
+    ],
+  },
+  {
+    id: "resin-front-patio-planters",
+    title: "Resin Front Patio & Planters",
+    description:
+      "Resin-bound front patio with matching planter surrounds. Cohesive design ties the surfacing and landscaping together for a polished, low-maintenance front garden.",
+    category: "resin",
+    coverIndex: 0,
+    images: [
+      { src: `${RESIN_PATIO_BASE}/WhatsApp Image 2026-04-28 at 09.38.58.jpeg`,      alt: "Resin front patio and planters — overview"  },
+      { src: `${RESIN_PATIO_BASE}/WhatsApp Image 2026-04-28 at 09.38.58 (1).jpeg`,  alt: "Resin front patio and planters — stage 1"   },
+      { src: `${RESIN_PATIO_BASE}/WhatsApp Image 2026-04-28 at 09.38.58 (2).jpeg`,  alt: "Resin front patio and planters — stage 2"   },
+      { src: `${RESIN_PATIO_BASE}/WhatsApp Image 2026-04-28 at 09.38.58 (3).jpeg`,  alt: "Resin front patio and planters — stage 3"   },
+      { src: `${RESIN_PATIO_BASE}/WhatsApp Image 2026-04-28 at 09.38.58 (4).jpeg`,  alt: "Resin front patio and planters — stage 4"   },
+      { src: `${RESIN_PATIO_BASE}/WhatsApp Image 2026-04-28 at 09.38.58 (5).jpeg`,  alt: "Resin front patio and planters — stage 5"   },
+      { src: `${RESIN_PATIO_BASE}/WhatsApp Image 2026-04-28 at 09.38.58 (6).jpeg`,  alt: "Resin front patio and planters — finished"  },
+    ],
+  },
+  {
+    id: "resin-pool-cyprus",
+    title: "Resin Pool Surround — Cyprus",
+    description:
+      "Resin-bound pool surround installed in Cyprus. Slip-resistant, water-tolerant surface laid around the pool perimeter, providing a safe, attractive finish that withstands the heat.",
+    category: "resin",
+    coverIndex: 0,
+    images: [
+      { src: `${RESIN_POOL_BASE}/WhatsApp Image 2026-04-28 at 09.56.36.jpeg`,      alt: "Resin pool surround Cyprus — overview"  },
+      { src: `${RESIN_POOL_BASE}/WhatsApp Image 2026-04-28 at 09.56.36 (1).jpeg`,  alt: "Resin pool surround Cyprus — detail 1"  },
+      { src: `${RESIN_POOL_BASE}/WhatsApp Image 2026-04-28 at 09.56.36 (2).jpeg`,  alt: "Resin pool surround Cyprus — detail 2"  },
+      { src: `${RESIN_POOL_BASE}/WhatsApp Image 2026-04-28 at 09.56.37.jpeg`,      alt: "Resin pool surround Cyprus — detail 3"  },
+      { src: `${RESIN_POOL_BASE}/WhatsApp Image 2026-04-28 at 10.18.41.jpeg`,      alt: "Resin pool surround Cyprus — detail 4"  },
+      { src: `${RESIN_POOL_BASE}/WhatsApp Image 2026-04-28 at 10.19.58.jpeg`,      alt: "Resin pool surround Cyprus — detail 5"  },
+      { src: `${RESIN_POOL_BASE}/WhatsApp Image 2026-04-28 at 10.19.59.jpeg`,      alt: "Resin pool surround Cyprus — detail 6"  },
+      { src: `${RESIN_POOL_BASE}/WhatsApp Image 2026-04-28 at 10.19.59 (1).jpeg`,  alt: "Resin pool surround Cyprus — detail 7"  },
+      { src: `${RESIN_POOL_BASE}/WhatsApp Image 2026-04-28 at 10.19.59 (2).jpeg`,  alt: "Resin pool surround Cyprus — finished"  },
+    ],
+  },
+  {
+    id: "sandstone-patio-artificial-grass",
+    title: "Sandstone Patio with Artificial Grass",
+    description:
+      "Sandstone patio paired with premium artificial grass for the perfect balance of natural stone and low-maintenance lawn. Crisp edging and tight jointing throughout.",
+    category: "patios",
+    coverIndex: 0,
+    images: [
+      { src: `${SS_GRASS_BASE}/WhatsApp Image 2026-04-28 at 10.00.51.jpeg`,      alt: "Sandstone patio with artificial grass — overview"  },
+      { src: `${SS_GRASS_BASE}/WhatsApp Image 2026-04-28 at 10.00.51 (1).jpeg`,  alt: "Sandstone patio with artificial grass — stage 1"   },
+      { src: `${SS_GRASS_BASE}/WhatsApp Image 2026-04-28 at 10.00.51 (2).jpeg`,  alt: "Sandstone patio with artificial grass — stage 2"   },
+      { src: `${SS_GRASS_BASE}/WhatsApp Image 2026-04-28 at 10.00.51 (3).jpeg`,  alt: "Sandstone patio with artificial grass — stage 3"   },
+      { src: `${SS_GRASS_BASE}/WhatsApp Image 2026-04-28 at 10.00.51 (4).jpeg`,  alt: "Sandstone patio with artificial grass — stage 4"   },
+      { src: `${SS_GRASS_BASE}/WhatsApp Image 2026-04-28 at 10.00.51 (5).jpeg`,  alt: "Sandstone patio with artificial grass — stage 5"   },
+      { src: `${SS_GRASS_BASE}/WhatsApp Image 2026-04-28 at 10.00.51 (6).jpeg`,  alt: "Sandstone patio with artificial grass — stage 6"   },
+      { src: `${SS_GRASS_BASE}/WhatsApp Image 2026-04-28 at 10.00.51 (7).jpeg`,  alt: "Sandstone patio with artificial grass — stage 7"   },
+      { src: `${SS_GRASS_BASE}/WhatsApp Image 2026-04-28 at 10.00.51 (8).jpeg`,  alt: "Sandstone patio with artificial grass — finished"  },
+    ],
+  },
+  {
+    id: "sandstone-patio",
+    title: "Sandstone Patio",
+    description:
+      "Extensive sandstone patio installation with full sub-base preparation, mortar bedding, and precision pointing. A classic natural stone finish built to last decades.",
+    category: "patios",
+    coverIndex: 0,
+    images: [
+      { src: `${SS_PATIO_BASE}/WhatsApp Image 2026-04-28 at 09.45.52.jpeg`,       alt: "Sandstone patio — overview"   },
+      { src: `${SS_PATIO_BASE}/WhatsApp Image 2026-04-28 at 09.45.54.jpeg`,       alt: "Sandstone patio — stage 1"    },
+      { src: `${SS_PATIO_BASE}/WhatsApp Image 2026-04-28 at 09.45.54 (1).jpeg`,   alt: "Sandstone patio — stage 2"    },
+      { src: `${SS_PATIO_BASE}/WhatsApp Image 2026-04-28 at 09.45.54 (2).jpeg`,   alt: "Sandstone patio — stage 3"    },
+      { src: `${SS_PATIO_BASE}/WhatsApp Image 2026-04-28 at 09.45.54 (3).jpeg`,   alt: "Sandstone patio — stage 4"    },
+      { src: `${SS_PATIO_BASE}/WhatsApp Image 2026-04-28 at 09.45.54 (4).jpeg`,   alt: "Sandstone patio — stage 5"    },
+      { src: `${SS_PATIO_BASE}/WhatsApp Image 2026-04-28 at 09.45.54 (5).jpeg`,   alt: "Sandstone patio — stage 6"    },
+      { src: `${SS_PATIO_BASE}/WhatsApp Image 2026-04-28 at 09.45.54 (6).jpeg`,   alt: "Sandstone patio — stage 7"    },
+      { src: `${SS_PATIO_BASE}/WhatsApp Image 2026-04-28 at 09.45.54 (7).jpeg`,   alt: "Sandstone patio — stage 8"    },
+      { src: `${SS_PATIO_BASE}/WhatsApp Image 2026-04-28 at 09.45.54 (8).jpeg`,   alt: "Sandstone patio — stage 9"    },
+      { src: `${SS_PATIO_BASE}/WhatsApp Image 2026-04-28 at 09.45.54 (9).jpeg`,   alt: "Sandstone patio — stage 10"   },
+      { src: `${SS_PATIO_BASE}/WhatsApp Image 2026-04-28 at 09.45.55.jpeg`,       alt: "Sandstone patio — stage 11"   },
+      { src: `${SS_PATIO_BASE}/WhatsApp Image 2026-04-28 at 09.45.55 (1).jpeg`,   alt: "Sandstone patio — stage 12"   },
+      { src: `${SS_PATIO_BASE}/WhatsApp Image 2026-04-28 at 09.45.55 (2).jpeg`,   alt: "Sandstone patio — stage 13"   },
+      { src: `${SS_PATIO_BASE}/WhatsApp Image 2026-04-28 at 09.45.59.jpeg`,       alt: "Sandstone patio — stage 14"   },
+      { src: `${SS_PATIO_BASE}/WhatsApp Image 2026-04-28 at 09.45.59 (1).jpeg`,   alt: "Sandstone patio — stage 15"   },
+      { src: `${SS_PATIO_BASE}/WhatsApp Image 2026-04-28 at 09.45.59 (2).jpeg`,   alt: "Sandstone patio — stage 16"   },
+      { src: `${SS_PATIO_BASE}/WhatsApp Image 2026-04-28 at 09.45.59 (3).jpeg`,   alt: "Sandstone patio — stage 17"   },
+      { src: `${SS_PATIO_BASE}/WhatsApp Image 2026-04-28 at 09.45.59 (4).jpeg`,   alt: "Sandstone patio — stage 18"   },
+      { src: `${SS_PATIO_BASE}/WhatsApp Image 2026-04-28 at 09.45.59 (5).jpeg`,   alt: "Sandstone patio — stage 19"   },
+      { src: `${SS_PATIO_BASE}/WhatsApp Image 2026-04-28 at 09.45.59 (6).jpeg`,   alt: "Sandstone patio — stage 20"   },
+      { src: `${SS_PATIO_BASE}/WhatsApp Image 2026-04-28 at 09.45.59 (7).jpeg`,   alt: "Sandstone patio — stage 21"   },
+      { src: `${SS_PATIO_BASE}/WhatsApp Image 2026-04-28 at 09.45.59 (8).jpeg`,   alt: "Sandstone patio — stage 22"   },
+      { src: `${SS_PATIO_BASE}/WhatsApp Image 2026-04-28 at 09.45.59 (9).jpeg`,   alt: "Sandstone patio — stage 23"   },
+      { src: `${SS_PATIO_BASE}/WhatsApp Image 2026-04-28 at 09.45.59 (10).jpeg`,  alt: "Sandstone patio — stage 24"   },
+      { src: `${SS_PATIO_BASE}/WhatsApp Image 2026-04-28 at 09.45.59 (11).jpeg`,  alt: "Sandstone patio — stage 25"   },
+      { src: `${SS_PATIO_BASE}/WhatsApp Image 2026-04-28 at 09.45.59 (12).jpeg`,  alt: "Sandstone patio — stage 26"   },
+      { src: `${SS_PATIO_BASE}/WhatsApp Image 2026-04-28 at 09.45.59 (13).jpeg`,  alt: "Sandstone patio — stage 27"   },
+      { src: `${SS_PATIO_BASE}/WhatsApp Image 2026-04-28 at 09.45.59 (14).jpeg`,  alt: "Sandstone patio — stage 28"   },
+      { src: `${SS_PATIO_BASE}/WhatsApp Image 2026-04-28 at 09.46.00.jpeg`,       alt: "Sandstone patio — stage 29"   },
+      { src: `${SS_PATIO_BASE}/WhatsApp Image 2026-04-28 at 09.46.00 (1).jpeg`,   alt: "Sandstone patio — stage 30"   },
+      { src: `${SS_PATIO_BASE}/WhatsApp Image 2026-04-28 at 09.46.00 (2).jpeg`,   alt: "Sandstone patio — stage 31"   },
+      { src: `${SS_PATIO_BASE}/WhatsApp Image 2026-04-28 at 09.46.00 (3).jpeg`,   alt: "Sandstone patio — stage 32"   },
+      { src: `${SS_PATIO_BASE}/WhatsApp Image 2026-04-28 at 09.46.00 (4).jpeg`,   alt: "Sandstone patio — stage 33"   },
+      { src: `${SS_PATIO_BASE}/WhatsApp Image 2026-04-28 at 09.46.00 (5).jpeg`,   alt: "Sandstone patio — finished"   },
     ],
   },
 ];
