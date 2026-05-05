@@ -152,7 +152,7 @@ export const GALLERY_PROJECTS: GalleryProject[] = [
     id: "crazy-garden-renovation",
     title: "Garden Renovation with Curved Path & Kerb",
     description:
-      "Striking garden transformation featuring a sweeping curved pathway and matching curved kerbing. Designed to maximise space and create a flowing, contemporary outdoor aesthetic.",
+      "Cyprus garden renovation — full dig out of existing crazy paved footpaths, new crazy paved driveway, drop kerb installation, and a concrete finish drive.",
     category: "landscaping",
     coverIndex: 0,
     images: [
@@ -176,7 +176,7 @@ export const GALLERY_PROJECTS: GalleryProject[] = [
     id: "italian-restaurant-entrance",
     title: "Italian Restaurant Entrance",
     description:
-      "Commercial resin-bound entrance installation for an Italian restaurant. Durable, slip-resistant surface finished to a high standard, welcoming guests in style.",
+      "Resin-bound entrance installation for an Italian restaurant in Cyprus. Dark resin surface laid over the existing entrance, creating a smart and durable finish for high-footfall commercial use.",
     category: "resin",
     coverIndex: 0,
     images: [
@@ -211,7 +211,7 @@ export const GALLERY_PROJECTS: GalleryProject[] = [
     id: "garden-transform",
     title: "Garden Transform",
     description:
-      "Complete garden transformation from overgrown space to a stunning outdoor retreat. Groundworks, planting borders, and finishing touches all handled in-house.",
+      "Full grade garden transformation including a resin patio with LED lighting strip border and new turf. Groundworks completed in full before the finished surfaces were installed.",
     category: "landscaping",
     coverIndex: 0,
     images: [
@@ -279,7 +279,7 @@ export const GALLERY_PROJECTS: GalleryProject[] = [
     id: "porcelain-tile-garden-transform",
     title: "Porcelain Tile Garden Transform",
     description:
-      "Full garden transformation using premium porcelain tiles. The sleek, large-format surface creates a modern, seamless look that connects indoor and outdoor living effortlessly.",
+      "Full garden transformation with porcelain tiles, artificial grass, a K-render seating area, and a K-render finish on the back of the house.",
     category: "patios",
     coverIndex: 0,
     images: [
