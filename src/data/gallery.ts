@@ -63,6 +63,8 @@ const RESIN_PATIO_BASE   = `${BASE}/resin front patio and planters`;
 const RESIN_POOL_BASE    = `${BASE}/resin pool cyprus`;
 const SS_GRASS_BASE      = `${BASE}/sandstone patio with artificial grass`;
 const SS_PATIO_BASE      = `${BASE}/sandstone patio`;
+const SS_BBQ_BASE        = `${BASE}/full-garden-transformation-indian-sandstone-patio-bbq`;
+const GREY_KANDLA_BASE   = `${BASE}/grey-kandla-sandstone-patio-fencing-aircon-installation`;
 
 export const GALLERY_PROJECTS: GalleryProject[] = [
   {
@@ -240,7 +242,7 @@ export const GALLERY_PROJECTS: GalleryProject[] = [
     id: "house-extensions",
     title: "House Extensions",
     description:
-      "Groundworks and hard landscaping to complement a house extension project. External areas levelled, paved, and finished to match the new build and enhance the overall property.",
+      "Groundworks and hard landscaping to complement a house extension project.",
     category: "landscaping",
     coverIndex: 0,
     images: [
@@ -290,7 +292,10 @@ export const GALLERY_PROJECTS: GalleryProject[] = [
       { src: `${PORC_TILE_BASE}/WhatsApp Image 2026-04-28 at 09.41.36 (4).jpeg`,  alt: "Porcelain tile garden transform — stage 4"   },
       { src: `${PORC_TILE_BASE}/WhatsApp Image 2026-04-28 at 09.41.36 (5).jpeg`,  alt: "Porcelain tile garden transform — stage 5"   },
       { src: `${PORC_TILE_BASE}/WhatsApp Image 2026-04-28 at 09.41.36 (6).jpeg`,  alt: "Porcelain tile garden transform — stage 6"   },
-      { src: `${PORC_TILE_BASE}/WhatsApp Image 2026-04-28 at 09.41.36 (7).jpeg`,  alt: "Porcelain tile garden transform — finished"  },
+      { src: `${PORC_TILE_BASE}/WhatsApp Image 2026-04-28 at 09.41.36 (7).jpeg`,  alt: "Porcelain tile garden transform — stage 7"   },
+      { src: `${PORC_TILE_BASE}/PHOTO-2026-05-19-11-02-38.jpg`,                   alt: "Porcelain tile garden transform — stage 8"   },
+      { src: `${PORC_TILE_BASE}/PHOTO-2026-05-19-11-02-38_1.jpg`,                 alt: "Porcelain tile garden transform — stage 9"   },
+      { src: `${PORC_TILE_BASE}/PHOTO-2026-05-19-11-02-38_2.jpg`,                 alt: "Porcelain tile garden transform — finished"  },
     ],
   },
   {
@@ -400,8 +405,7 @@ export const GALLERY_PROJECTS: GalleryProject[] = [
       { src: `${RESIN_THAI_BASE}/WhatsApp Image 2026-04-28 at 10.23.15 (2).jpeg`,  alt: "Thai restaurant entrance Cyprus — detail 2"  },
       { src: `${RESIN_THAI_BASE}/WhatsApp Image 2026-04-28 at 10.23.15 (3).jpeg`,  alt: "Thai restaurant entrance Cyprus — detail 3"  },
       { src: `${RESIN_THAI_BASE}/WhatsApp Image 2026-04-28 at 10.23.15 (4).jpeg`,  alt: "Thai restaurant entrance Cyprus — detail 4"  },
-      { src: `${RESIN_THAI_BASE}/WhatsApp Image 2026-04-28 at 10.23.15 (5).jpeg`,  alt: "Thai restaurant entrance Cyprus — detail 5"  },
-      { src: `${RESIN_THAI_BASE}/WhatsApp Image 2026-04-28 at 10.23.15 (6).jpeg`,  alt: "Thai restaurant entrance Cyprus — finished"  },
+      { src: `${RESIN_THAI_BASE}/WhatsApp Image 2026-04-28 at 10.23.15 (5).jpeg`,  alt: "Thai restaurant entrance Cyprus — finished"  },
     ],
   },
   {
@@ -502,6 +506,54 @@ export const GALLERY_PROJECTS: GalleryProject[] = [
       { src: `${SS_PATIO_BASE}/WhatsApp Image 2026-04-28 at 09.46.00 (3).jpeg`,   alt: "Sandstone patio — stage 32"   },
       { src: `${SS_PATIO_BASE}/WhatsApp Image 2026-04-28 at 09.46.00 (4).jpeg`,   alt: "Sandstone patio — stage 33"   },
       { src: `${SS_PATIO_BASE}/WhatsApp Image 2026-04-28 at 09.46.00 (5).jpeg`,   alt: "Sandstone patio — finished"   },
+    ],
+  },
+  {
+    id: "indian-sandstone-patio-bbq-transformation",
+    title: "Indian Sandstone Patio & BBQ Garden Transformation",
+    description:
+      "Full garden transformation featuring an Indian sandstone patio, artificial grass, detailed brick walls, a brick-built garden fire and a brick-built BBQ area with lighting.",
+    category: "patios",
+    coverIndex: 0,
+    images: [
+      { src: `${SS_BBQ_BASE}/PHOTO-2026-05-19-10-42-13.jpg`,    alt: "Indian sandstone patio and BBQ transformation — overview"    },
+      { src: `${SS_BBQ_BASE}/PHOTO-2026-05-19-10-42-13_1.jpg`,  alt: "Indian sandstone patio and BBQ transformation — stage 1"     },
+      { src: `${SS_BBQ_BASE}/PHOTO-2026-05-19-10-42-13_2.jpg`,  alt: "Indian sandstone patio and BBQ transformation — stage 2"     },
+      { src: `${SS_BBQ_BASE}/PHOTO-2026-05-19-10-42-13_3.jpg`,  alt: "Indian sandstone patio and BBQ transformation — stage 3"     },
+      { src: `${SS_BBQ_BASE}/PHOTO-2026-05-19-10-42-14.jpg`,    alt: "Indian sandstone patio and BBQ transformation — stage 4"     },
+      { src: `${SS_BBQ_BASE}/PHOTO-2026-05-19-10-42-14_1.jpg`,  alt: "Indian sandstone patio and BBQ transformation — stage 5"     },
+      { src: `${SS_BBQ_BASE}/PHOTO-2026-05-19-10-42-14_2.jpg`,  alt: "Indian sandstone patio and BBQ transformation — stage 6"     },
+      { src: `${SS_BBQ_BASE}/PHOTO-2026-05-19-10-42-14_3.jpg`,  alt: "Indian sandstone patio and BBQ transformation — stage 7"     },
+      { src: `${SS_BBQ_BASE}/PHOTO-2026-05-19-10-42-14_4.jpg`,  alt: "Indian sandstone patio and BBQ transformation — stage 8"     },
+      { src: `${SS_BBQ_BASE}/PHOTO-2026-05-19-10-42-14_5.jpg`,  alt: "Indian sandstone patio and BBQ transformation — stage 9"     },
+      { src: `${SS_BBQ_BASE}/PHOTO-2026-05-19-10-42-14_6.jpg`,  alt: "Indian sandstone patio and BBQ transformation — stage 10"    },
+      { src: `${SS_BBQ_BASE}/PHOTO-2026-05-19-10-42-14_7.jpg`,  alt: "Indian sandstone patio and BBQ transformation — stage 11"    },
+      { src: `${SS_BBQ_BASE}/PHOTO-2026-05-19-10-42-14_8.jpg`,  alt: "Indian sandstone patio and BBQ transformation — stage 12"    },
+      { src: `${SS_BBQ_BASE}/PHOTO-2026-05-19-10-42-14_9.jpg`,  alt: "Indian sandstone patio and BBQ transformation — stage 13"    },
+      { src: `${SS_BBQ_BASE}/PHOTO-2026-05-19-10-42-14_10.jpg`, alt: "Indian sandstone patio and BBQ transformation — stage 14"    },
+      { src: `${SS_BBQ_BASE}/PHOTO-2026-05-19-10-42-14_11.jpg`, alt: "Indian sandstone patio and BBQ transformation — stage 15"    },
+      { src: `${SS_BBQ_BASE}/PHOTO-2026-05-22-05-37-21.jpg`,    alt: "Indian sandstone patio and BBQ transformation — finished"    },
+    ],
+  },
+  {
+    id: "grey-kandla-sandstone-patio-aircon",
+    title: "Grey Kandla Sandstone Patio, Fencing & Air Con",
+    description:
+      "Full garden transformation featuring a grey Kandla Indian sandstone patio and new fencing, with a new air conditioning system fitted inside the house.",
+    category: "patios",
+    coverIndex: 0,
+    images: [
+      { src: `${GREY_KANDLA_BASE}/PHOTO-2026-05-22-05-34-38.jpg`,    alt: "Grey Kandla sandstone patio and air con — overview"  },
+      { src: `${GREY_KANDLA_BASE}/PHOTO-2026-05-22-05-34-38_1.jpg`,  alt: "Grey Kandla sandstone patio and air con — stage 1"   },
+      { src: `${GREY_KANDLA_BASE}/PHOTO-2026-05-22-05-34-38_2.jpg`,  alt: "Grey Kandla sandstone patio and air con — stage 2"   },
+      { src: `${GREY_KANDLA_BASE}/PHOTO-2026-05-22-05-34-38_3.jpg`,  alt: "Grey Kandla sandstone patio and air con — stage 3"   },
+      { src: `${GREY_KANDLA_BASE}/PHOTO-2026-05-22-05-34-38_4.jpg`,  alt: "Grey Kandla sandstone patio and air con — stage 4"   },
+      { src: `${GREY_KANDLA_BASE}/PHOTO-2026-05-22-05-34-39.jpg`,    alt: "Grey Kandla sandstone patio and air con — stage 5"   },
+      { src: `${GREY_KANDLA_BASE}/PHOTO-2026-05-22-05-34-39_1.jpg`,  alt: "Grey Kandla sandstone patio and air con — stage 6"   },
+      { src: `${GREY_KANDLA_BASE}/PHOTO-2026-05-22-05-34-39_2.jpg`,  alt: "Grey Kandla sandstone patio and air con — stage 7"   },
+      { src: `${GREY_KANDLA_BASE}/PHOTO-2026-05-22-05-34-39_3.jpg`,  alt: "Grey Kandla sandstone patio and air con — stage 8"   },
+      { src: `${GREY_KANDLA_BASE}/PHOTO-2026-05-22-05-34-39_4.jpg`,  alt: "Grey Kandla sandstone patio and air con — stage 9"   },
+      { src: `${GREY_KANDLA_BASE}/PHOTO-2026-05-22-05-37-21.jpg`,    alt: "Grey Kandla sandstone patio and air con — finished"  },
     ],
   },
 ];
